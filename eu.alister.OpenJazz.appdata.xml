@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022 Hugo Locurcio -->
+
+<component type="desktop">
+  <id>eu.alister.OpenJazz</id>
+  <name>OpenJazz</name>
+  <summary>Open source Jack Rabbit reimplementation</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+
+  <developer_name>Alister Thomson</developer_name>
+  <update_contact>hugo.locurcio@hugo.pro</update_contact>
+
+  <url type="homepage">http://www.alister.eu/jazz/oj/</url>
+  <url type="bugtracker">https://github.com/AlisterT/openjazz</url>
+  <url type="faq">http://www.alister.eu/jazz/oj/faq.php</url>
+
+  <launchable type="desktop-id">eu.alister.OpenJazz.desktop</launchable>
+  <provides>
+    <binary>OpenJazz</binary>
+  </provides>
+
+  <description>
+    <p>
+      OpenJazz is an open source reimplementation of the 2D platforming game Jazz Jackrabbit.
+    </p>
+    <p>
+      Features:
+    </p>
+    <ul>
+      <li>Play through the campaign (including Holiday Hare '95) in singleplayer, cooperative, battle or race modes.</li>
+      <li>Support for widescreen and high resolutions up to 4K.</li>
+      <li>Support for adjusting gameplay options, such as not picking up unneeded items and having more than one bird companion.</li>
+    </ul>
+    <p>
+      Original commercial (https://www.gog.com/game/jazz_jackrabbit_collection) or shareware (https://www.moddb.com/games/jazz-jackrabbit/downloads/shareware-demo) data files are required to run Jazz Jackrabbit.
+      Before running OpenJazz, the original Jazz Jackrabbit installation folder should be copied to (create folders as needed):
+    </p>
+    <p>
+      $HOME/.var/app/eu.alister.OpenJazz/data/jazz/
+    </p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image width="1600" height="900">https://raw.githubusercontent.com/flathub/eu.alister.OpenJazz/master/images/image_01.png</image>
+      <caption>Playing the singleplayer campaign with OpenJazz</caption>
+    </screenshot>
+    <screenshot>
+      <image width="1600" height="900">https://raw.githubusercontent.com/flathub/eu.alister.OpenJazz/master/images/image_02.png</image>
+      <caption>Playing the singleplayer campaign with OpenJazz</caption>
+    </screenshot>
+    <screenshot>
+      <image width="1600" height="900">https://raw.githubusercontent.com/flathub/eu.alister.OpenJazz/master/images/image_03.png</image>
+      <caption>Playing the singleplayer campaign with OpenJazz</caption>
+    </screenshot>
+    <screenshot>
+      <image width="1600" height="900">https://raw.githubusercontent.com/flathub/eu.alister.OpenJazz/master/images/image_04.png</image>
+      <caption>Playing the singleplayer campaign with OpenJazz</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="20210828-dev" date="2021-08-28">
+      <description>
+        <p>First release of OpenJazz on Flathub.</p>
+      </description>
+    </release>
+  </releases>
+
+  <categories>
+    <category>Games</category>
+  </categories>
+
+  <content_rating type="oars-1.1"/>
+</component>

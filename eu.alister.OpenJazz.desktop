@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Open source Jazz Jackrabbit reimplementation
+Categories=Game;ActionGame;
+Exec=openjazz
+Icon=eu.alister.OpenJazz
+Name=OpenJazz
+StartupNotify=true
+PrefersNonDefaultGPU=true
+Terminal=false
+Type=Application
+Keywords=platform;platformer;
