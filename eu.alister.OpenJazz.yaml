@@ -45,7 +45,7 @@ modules:
           - /app/bin/openjazz-bin "$HOME/.var/app/$FLATPAK_ID/data/jazz/" "$@"
 
     build-commands:
-      - make -j$(nproc)
+      - make -j$FLATPAK_BUILDER_N_JOBS
       - install -Dm 755 openjazz.sh /app/bin/openjazz
       - install -Dm 755 OpenJazz /app/bin/openjazz-bin
       - install -Dm 755 openjazz.000 -t /app/bin/
